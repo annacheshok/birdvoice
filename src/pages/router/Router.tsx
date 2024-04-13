@@ -5,6 +5,7 @@ import { HistoryRecognition } from "../HistoryRecognition"
 import { Settings } from "../Settings"
 import { SignIn } from "../SingIn"
 import { SignUp } from "../SignUp"
+import { RecognitionService } from "../RecognitionService"
 
 const Router = () => {
     return (
@@ -15,7 +16,7 @@ const Router = () => {
             />
             <Route
                 path={ERoute.RECOGNITION_SERVICE}
-                element={<Main />}
+                element={<RecognitionService />}
             />
             <Route
                 path={ERoute.HISTORY_RECOGNITION}
