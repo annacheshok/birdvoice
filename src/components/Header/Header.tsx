@@ -1,4 +1,4 @@
-import cn from 'clsx'
+import cn from 'clsx';
 import logoDark from '../../shared/assets/logo-dark.png';
 import logoLight from '../../shared/assets/logo-light.png';
 import icon from '../../shared/assets/icon.png';
