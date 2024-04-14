@@ -38,7 +38,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='pt-4 flex'>
-                    <div className='ml-[280px]'>
+                    <div className='ml-[400px]'>
                         <ul className='flex flex-col'>
                             <li className={styles.listItem}>
                                 <a href=''>+375 29 255-31-97</a>
@@ -73,7 +73,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className='ml-[70px]'>
+                    <div className='ml-[180px]'>
                         <ul className='flex flex-col'>
                             <li className={styles.listItem}>
                                 <a href=''>Минск, ул. Академическая, 27, к. 134, ГНПО «НПЦ НАН Беларуси по биоресурсам»</a>
