@@ -1,3 +1,3 @@
-export interface IHeader {
+export interface IHeaderProps {
     src?: string | null;
 };

@@ -1,5 +1,6 @@
 import cn from 'clsx'
 import { IProps } from "./Layout.types";
+import { Footer } from '../../components';
 
 const Layout = ({ children }: IProps) => {
 
@@ -12,6 +13,7 @@ const Layout = ({ children }: IProps) => {
             <main>
                 {children}
             </main>
+            <Footer />
         </div>
     );
 };
