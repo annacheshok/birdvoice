@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Footer, Header } from "../../components";
+import { Button, Header } from "../../components";
 import fon from '../../shared/assets/fon-2.png';
 
 const SignIn = () => {
