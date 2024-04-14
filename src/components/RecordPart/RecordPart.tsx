@@ -1,7 +1,7 @@
 import { IRecordPart } from "./RecordPart.types";
 import cn from 'clsx';
 
-const Record = ({ src, name, time }: IRecordPart) => {
+const RecordPart = ({ src, name, time }: IRecordPart) => {
   const styles = {
       recordPart: cn('relative flex items-end justify-between w-full bg-cover max-w-[436px] h-[278px] rounded-[32px] shadow-[4px_4px_16px_0_rgba(46,42,26,0.2)] px-8 py-6 '),
       gradientOverlay: 'absolute inset-0 bg-gradient-to-b from-transparent to-[rgba(238,240,245,0.7)]',
@@ -23,4 +23,4 @@ const Record = ({ src, name, time }: IRecordPart) => {
   );
 };
 
-export default Record;
+export default RecordPart;

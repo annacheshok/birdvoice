@@ -1,10 +1,10 @@
 import { Button, Header } from "../../components";
+import { Record } from "../../components/Record";
+import { RecordPart } from "../../components/RecordPart";
 import play from '../../shared/assets/play.png';
 import birdSecond from '../../shared/assets/bird-2.png';
-import { Record } from "../../components/Record";
 import historyFirst from '../../shared/assets/history-1.png';
 import historySecond from '../../shared/assets/history-2.png';
-import { RecordPart } from "../../components/RecordPart";
 import recordFirst from '../../shared/assets/record-1.png';
 import recordSecond from '../../shared/assets/record-2.png';
 import recordThird from '../../shared/assets/record-3.png';
